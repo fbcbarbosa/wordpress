@@ -1,3 +1,2 @@
 #!/bin/bash
-
-docker-compose up -d -f $HOME/.wordpress/docker-compose.yml
+docker-compose -f $HOME/.wordpress/docker-compose.yml up -d
