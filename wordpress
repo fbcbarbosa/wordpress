@@ -1,2 +1,3 @@
 #!/bin/bash
-docker-compose -f $HOME/.wordpress/docker-compose.yml up -d
+dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+docker-compose -f $dir/docker-compose.yml up -d
